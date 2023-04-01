@@ -12,6 +12,7 @@
 * Easy to configure
 * Simple resource with 0.0ms resmon
 * Intended for stationary animals as there's no current functionality for freezing the entity.
+* Standalone Framework-wise as there's no framework dependencies, ox_target for esx or ox, qb-target for qb-core.
 
 
 # Preview
