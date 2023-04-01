@@ -1,5 +1,5 @@
 Config = {}
-Config.Framework = "ox_core" -- framework to use, qb-core or ox_core will use qb-target and ox-target accordingly.
+Config.Framework = "qb-core" -- framework to use, qb-core or ox_core will use qb-target and ox-target accordingly.
 Config.TargetDistance = 2.0 --distance to interact with pet
 Config.Relief = 15 -- stress relief when petting amount
 Config.Gain = 10 -- stress gain when petting cancelled amount

@@ -159,42 +159,43 @@ end)
 
 ----DEBUG FOR TESTING
 
--- function GetRandomAnimalSpawnCoords()
---   local playerPed = GetPlayerPed(-1)
---   local playerCoords = GetEntityCoords(playerPed)
---   local spawnRadius = 10.0
---   local spawnCoords = vector3(
---     playerCoords.x + math.random(-spawnRadius, spawnRadius),
---     playerCoords.y + math.random(-spawnRadius, spawnRadius),
---     playerCoords.z
---   )
---   local heading = math.random(0, 360)
---   return spawnCoords, heading
--- end
-
---   Citizen.CreateThread(function()
---     while true do
---       Citizen.Wait(0)
---       if IsControlJustReleased(0, 38) then
---         for i = 1, 10 do
---           local coords = GetRandomAnimalSpawnCoords()
---           local catOrDog = math.random(1, 2)
---           if catOrDog == 1 then
---             local catModel = GetHashKey("a_c_cat_01")
---             RequestModel(catModel)
---             while not HasModelLoaded(catModel) do
---               Citizen.Wait(0)
---             end
---             CreatePed(28, catModel, coords.x, coords.y, coords.z, coords.heading, true, false)
---           else
---             local dogModel = GetHashKey("a_c_husky")
---             RequestModel(dogModel)
---             while not HasModelLoaded(dogModel) do
---               Citizen.Wait(0)
---             end
---             CreatePed(28, dogModel, coords.x, coords.y, coords.z, coords.heading, true, false)
---           end
---         end
---       end
---     end
---   end)
+function GetRandomAnimalSpawnCoords()
+  local playerPed = GetPlayerPed(-1)
+  local playerCoords = GetEntityCoords(playerPed)
+  local spawnRadius = 10.0
+  local spawnCoords = vector3(
+    playerCoords.x + math.random(-spawnRadius, spawnRadius),
+    playerCoords.y + math.random(-spawnRadius, spawnRadius),
+    playerCoords.z
+  )
+  local heading = math.random(0, 360)
+  return spawnCoords, heading
+end
+if Config.Debug then
+  Citizen.CreateThread(function()
+    while true do
+      Citizen.Wait(0)
+      if IsControlJustReleased(0, 38) then
+        for i = 1, 10 do
+          local coords = GetRandomAnimalSpawnCoords()
+          local catOrDog = math.random(1, 2)
+          if catOrDog == 1 then
+            local catModel = GetHashKey("a_c_cat_01")
+            RequestModel(catModel)
+            while not HasModelLoaded(catModel) do
+              Citizen.Wait(0)
+            end
+            CreatePed(28, catModel, coords.x, coords.y, coords.z, coords.heading, true, false)
+          else
+            local dogModel = GetHashKey("a_c_husky")
+            RequestModel(dogModel)
+            while not HasModelLoaded(dogModel) do
+              Citizen.Wait(0)
+            end
+            CreatePed(28, dogModel, coords.x, coords.y, coords.z, coords.heading, true, false)
+          end
+        end
+      end
+    end
+  end)
+end
