@@ -28,5 +28,5 @@ https://user-images.githubusercontent.com/119994243/229268189-6b95c5bc-13da-4a8b
 
 # Dependencies
 [qb-target](https://github.com/qbcore-framework/qb-target) or [ox_target](https://github.com/overextended/ox_target)\
-[interact-sound](https://github.com/qbcore-framework/interact-sound)\
+[qb-interact-sound](https://github.com/qbcore-framework/interact-sound) or [standalone-interact-sound](https://github.com/plunkettscott/interact-sound)\
 [ox_lib](https://github.com/overextended/ox_lib)
