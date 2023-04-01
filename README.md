@@ -18,4 +18,4 @@
 # Dependencies
 [qb-target](https://github.com/qbcore-framework/qb-target)\
 [interact-sound](https://github.com/qbcore-framework/interact-sound)\
-[progressbar](https://github.com/qbcore-framework/progressbar)\
+[progressbar](https://github.com/qbcore-framework/progressbar)
