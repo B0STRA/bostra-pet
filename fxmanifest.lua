@@ -11,7 +11,10 @@ lua54 'yes'
 
 client_script 'client.lua'
 server_script 'server.lua'
-shared_script 'config.lua'
+shared_script {
+    'config.lua',
+    '@ox_lib/init.lua',
+}
 dependencies {
     'qb-target',
     'qb-core',

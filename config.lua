@@ -1,4 +1,5 @@
 Config = {}
+Config.Framework = "ox_core" -- framework to use, qb-core or ox_core will use qb-target and ox-target accordingly.
 Config.TargetDistance = 2.0 --distance to interact with pet
 Config.Relief = 15 -- stress relief when petting amount
 Config.Gain = 10 -- stress gain when petting cancelled amount
@@ -47,5 +48,7 @@ Config.Animals = {
     `a_c_shepherd`, -- Shepherd
     `a_c_westy`, -- Westy
     label = "Pet The Animal", -- label for the target menu
-    icon = "fa-solid fa-dog", -- icon for the target menu
+    icon = "fa-solid fa-hippo", -- icon for the target menu
 }
+
+Config.Debug = false -- debug mode, enable spawning of animals for testing
