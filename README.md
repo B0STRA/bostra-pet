@@ -12,6 +12,7 @@
 * Easy to configure
 * Simple resource with 0.0ms resmon
 * Intended for stationary animals as there's no current functionality for freezing the entity.
+* Standalone Framework-wise as there's no framework dependencies, ox_target for esx or ox, qb-target for qb-core.
 
 
 # Preview
@@ -27,6 +28,6 @@ https://user-images.githubusercontent.com/119994243/229268189-6b95c5bc-13da-4a8b
 
 
 # Dependencies
-[qb-target](https://github.com/qbcore-framework/qb-target)\
-[interact-sound](https://github.com/qbcore-framework/interact-sound)\
-[progressbar](https://github.com/qbcore-framework/progressbar)
+[qb-target](https://github.com/qbcore-framework/qb-target) or [ox_target](https://github.com/overextended/ox_target)\
+[qb-interact-sound](https://github.com/qbcore-framework/interact-sound) or [standalone-interact-sound](https://github.com/plunkettscott/interact-sound)\
+[ox_lib](https://github.com/overextended/ox_lib)
