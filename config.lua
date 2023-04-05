@@ -49,7 +49,7 @@ Config.AniLabel = "Pet The Animal" -- label for the target menu
 Config.AniIcon ="fa-solid fa-hippo" -- icon for the target menu
 
 
-Config.Debug = false -- debug mode, enable spawning of animals for testing
+Config.Debug = false -- debug mode, enable spawning of animals for testing. Press E to spawn cats and dogs in a radius around you. Do not enable in a live server...
 
 --Config.PetAnim = "WORLD_HUMAN_PET_DOG" -- animation to play when petting animal
 --intended for using a scenario instead of a single anim.
