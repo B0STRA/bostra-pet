@@ -6,8 +6,9 @@ Config.Gain = 10 -- stress gain when petting cancelled amount
 Config.Time = 5000 -- time to pet animal, 5000 = 5 seconds
 Config.Cats = {
     `a_c_cat_01`,  -- Domestic Short Hair
-    `a_c_mtlion`,
-    } -- Mountain Lion because why not?
+    `a_c_mtlion`, -- Mountain Lion because why not?
+    } 
+
 Config.CatLabel = "Pet The Cat" -- label for the target menu
 Config.CatIcon  = "fa-solid fa-cat"-- icon for the target menu
 
@@ -18,7 +19,10 @@ Config.Dogs = {
     `a_c_retriever`, -- Retriever
     `a_c_shepherd`, -- Shepherd
     `a_c_westy`, -- Westy
-    `a_c_pug`, }-- Pug
+    `a_c_pug`, --pug
+    `a_c_husky` --husky
+}
+
 Config.DogLabel = "Pet The Dog" -- label for the target menu
 Config.DogIcon = "fa-solid fa-dog"-- icon for the target menu
 
@@ -40,6 +44,7 @@ Config.Animals = {
     `a_c_sharkhammer`, -- Hammerhead Shark
     `a_c_sharktiger`, -- Tiger Shark
     }
+
 Config.AniLabel = "Pet The Animal" -- label for the target menu
 Config.AniIcon ="fa-solid fa-hippo" -- icon for the target menu
 
