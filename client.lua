@@ -181,6 +181,7 @@ function GetRandomAnimalSpawnCoords()
   return spawnCoords, heading
 end
 
+if Config.Debug then
 CreateThread(function()
   while true do
     Wait(0)
@@ -207,3 +208,4 @@ CreateThread(function()
     end
   end
 end)
+end
