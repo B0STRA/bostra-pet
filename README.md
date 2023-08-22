@@ -1,7 +1,7 @@
 # Bostra-Pet (Petting Animals)
 
-![preview](https://user-images.githubusercontent.com/119994243/229269521-39df62ac-7937-41b5-b925-b0d375376ff6.png)
-
+![Preview](https://user-images.githubusercontent.com/119994243/229269521-39df62ac-7937-41b5-b925-b0d375376ff6.png)
+![Support](https://discord.gg/RVx8nVwcEG)
 
 
 **Features:**
