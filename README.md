@@ -1,7 +1,7 @@
 # Bostra-Pet (Petting Animals)
 
 ![Preview](https://user-images.githubusercontent.com/119994243/229269521-39df62ac-7937-41b5-b925-b0d375376ff6.png)
-![Support](https://discord.gg/RVx8nVwcEG)
+<br>
 
 
 **Features:**
@@ -31,3 +31,7 @@ https://user-images.githubusercontent.com/119994243/229268189-6b95c5bc-13da-4a8b
 [qb-target](https://github.com/qbcore-framework/qb-target) or [ox_target](https://github.com/overextended/ox_target)\
 [qb-interact-sound](https://github.com/qbcore-framework/interact-sound) or [standalone-interact-sound](https://github.com/plunkettscott/interact-sound)\
 [ox_lib](https://github.com/overextended/ox_lib)
+
+
+# Support
+![Support at md-scripts Discord](https://discord.gg/RVx8nVwcEG)
