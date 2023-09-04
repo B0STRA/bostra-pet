@@ -33,5 +33,15 @@ https://user-images.githubusercontent.com/119994243/229268189-6b95c5bc-13da-4a8b
 [ox_lib](https://github.com/overextended/ox_lib)
 
 
-# Support
-![Support at md-scripts Discord](https://discord.gg/RVx8nVwcEG)
+ <h1>Support</h1>
+<u1>
+
+[Bostra-Development Discord](https://discord.gg/WC6McBQ5r8)
+
+</u1>
+
+<u1>
+
+[md-scripts Discord](https://discord.gg/RVx8nVwcEG)
+
+</u1>
