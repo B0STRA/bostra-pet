@@ -33,15 +33,8 @@ https://user-images.githubusercontent.com/119994243/229268189-6b95c5bc-13da-4a8b
 [ox_lib](https://github.com/overextended/ox_lib)
 
 
- <h1>Support</h1>
-<u1>
+# Troubleshooting & Support
+[Mustache Scripts - Discord](https://discord.gg/RVx8nVwcEG)
 
-[Bostra-Development Discord](https://discord.gg/WC6McBQ5r8)
-
-</u1>
-
-<u1>
-
-[md-scripts Discord](https://discord.gg/RVx8nVwcEG)
-
-</u1>
+## Tip / Commission Me
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A46AZW4)
